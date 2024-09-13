@@ -1,0 +1,24 @@
+.last {
+  padding: 5% 8%;
+  background-color: rgb(225, 226, 224);
+}
+.last-details {
+  text-align: center;
+}
+.last-details button {
+  margin-top: 1rem;
+  padding: 10px 40px;
+  border-radius: 20px;
+  outline: none;
+  font-weight: 500;
+  border: none;
+  background: linear-gradient(
+    45deg,
+    rgba(57, 65, 89, 1) 12%,
+    rgba(145, 73, 73, 1) 96%
+  );
+  background-blend-mode: normal;
+  color: whitesmoke;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}

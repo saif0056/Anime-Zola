@@ -1,0 +1,61 @@
+.header {
+  padding: 0.5% 8%;
+}
+.flex-header {
+  display: flex;
+  justify-content: space-between;
+}
+.header-content {
+  display: flex;
+  gap: 0.5rem;
+}
+.header-content h3 {
+  margin-top: 0.2rem;
+}
+.header-content img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.header-content p {
+  margin-top: 0.3rem;
+  margin-right: 0.5rem;
+  font-size: 16.5px;
+  font-weight: 500;
+}
+.header-content button {
+  padding: 7px 27px;
+  border-radius: 20px;
+  outline: none;
+  font-weight: 500;
+  border: none;
+  background: linear-gradient(
+    45deg,
+    rgba(57, 65, 89, 1) 12%,
+    rgba(145, 73, 73, 1) 96%
+  );
+  background-blend-mode: normal;
+  color: whitesmoke;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.10);
+}
+.header-sale{
+    background-color: rgb(13, 78, 13);
+    padding: 10px;
+    text-align: center;
+    color: rgb(250, 226, 226);
+}
+
+@media(max-width:486px) {
+  .header-content h3{
+    font-size: 15px;
+  }
+  .header-content button{
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+  .header-content p{
+    font-size: 14px;
+    
+  }
+}

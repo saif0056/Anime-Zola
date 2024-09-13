@@ -1,0 +1,34 @@
+.sale {
+  padding: 6% 8%;
+}
+.sale img {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.sale-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.sale-details h6 {
+  font-size: 18px;
+  margin-top: 0.2rem;
+  margin-bottom: 0.3rem;
+  text-align: center;
+}
+.sale-details p {
+  font-size: 13px;
+  line-height: 22px;
+  text-align: center;
+}
+
+
+@media(max-width:768px) {
+  .sale-flex{
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,51 @@
+.wedding {
+  padding: 5% 8%;
+  background-color: rgb(253, 233, 253);
+}
+.flex-wedding {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+}
+.wedding-details h2 {
+  text-align: center;
+  line-height: 28px;
+} 
+.wedding-details img{
+    border-radius: 5px;
+}
+.wedding-details p {
+  margin-top: 0.5rem;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+}
+.wedding-details button {
+    margin: auto;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 28px;
+  border-radius: 20px;
+  outline: none;
+  font-weight: 500;
+  border: none;
+  background: linear-gradient(
+    45deg,
+    rgba(57, 65, 89, 1) 12%,
+    rgba(145, 73, 73, 1) 96%
+  );
+  background-blend-mode: normal;
+  color: whitesmoke;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.10);
+}
+
+
+@media (max-width:768px){
+  .flex-wedding{
+    flex-direction: column;
+    text-align: center;
+  }
+}
